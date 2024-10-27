@@ -1,1 +1,18 @@
 # hello-world initgit add README.mdgit commit -m first commitgit branch -M maingit remote add origin https://github.com/Erka319/hello-world.gitgit push -u origin main
+# Initialize a new Git repository
+git init
+
+# Add the README.md file to the staging area
+git add README.md
+
+# Commit the changes with a meaningful message
+git commit -m "Initial commit: Added README.md"
+
+# Create a new branch named 'main' and set it as the default branch
+git branch -M main
+
+# Link the local repository to the remote repository on GitHub
+git remote add origin https://github.com/Erka319/hello-world.git
+
+# Push the changes to the remote repository and set the upstream tracking information
+git push -u origin maincon
